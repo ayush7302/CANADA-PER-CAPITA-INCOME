@@ -2,9 +2,9 @@ import streamlit as st
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 
-st.set_page_config(page_title="Canada Income Prediction", page_icon="📈")
+st.set_page_config(page_title="Canada Income Prediction", page_icon="💵")
 
-st.title("📈 Canada Per Capita Income Prediction")
+st.title("💵 Canada Per Capita Income Prediction")
 
 uploaded_file = st.file_uploader(
     "Upload canada_per_capita_income.csv",
